@@ -1,5 +1,5 @@
-This is a sample kafka endpoint Consumer. It will start a client listening to the configured Kafka endpoint, then output all 
-messages to the console. 
+This is a Blocklist Processing Engine. It will start a client listening to the configured Kafka endpoint, then check the MSISDN for all the 
+different transactions on a Redis Blocklist, and then output the result to Tremor (block or no-block).
 
 To get going:
 Run "npm i"
